@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tipCalculator {
+  width: 500px;
+  background-color: #eee;
+  padding: 15px;
+  margin: 150px auto;
+  box-shadow: 0px 1px 9px 0px;
+}
+
+.bill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.bill label {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.bill input {
+  padding: 10px 5px;
+  outline: none;
+  border: 1.5px #ddd solid;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.select label {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.select select {
+  outline: none;
+  border: 1.5px #add solid;
+  padding: 10px 5px;
+  color: #656565;
+}
+
+.select select::content {
+  background-color: red;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px 5px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1.5px #ddd solid;
+  color: #656565;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.05s;
+}
+button:hover {
+  background-color: #656565;
+  color: white;
+}
